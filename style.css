@@ -115,3 +115,45 @@ main {
     height: 37px;
     width: 116px;
 }
+
+/* about part  */
+.about-us {
+    display: flex;
+    gap: 45px;
+    margin-top: 82px;
+}
+
+.about-item {
+    width: 50%;
+}
+
+.about-item p {
+    font-family: rakib;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 22px;
+}
+
+.about-heading {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.about-heading img {
+    height: 30px;
+    width: 30px;
+}
+
+.about-heading h2 {
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: rakib;
+    font-weight: bold;
+}
+
+.img-flex img {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #fff;
+    margin-right: 18px;
+}
