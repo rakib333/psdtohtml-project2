@@ -220,3 +220,32 @@ footer {
 .footer-post-one .green {
     color: #546E20;
 }
+
+.footer-bg {
+    background-color: #202020;
+    width: 100%;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer-bottom p {
+    padding: 27px 0px;
+    color: #5a5656;
+}
+
+.social-media i {
+    font-size: 26px;
+    color: blue;
+    margin-right: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.social-media i:hover {
+    color: green;
+}
