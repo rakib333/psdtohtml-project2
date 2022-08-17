@@ -157,3 +157,66 @@ main {
     border: 5px solid #fff;
     margin-right: 18px;
 }
+
+/* footer part css  */
+footer {
+    width: 100%;
+    background-color: #3C3938;
+    margin-top: 130px;
+}
+
+.footer-top-items {
+    display: flex;
+    gap: 85px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.recent-post {
+    width: 310px;
+    margin-top: 35px;
+}
+
+.post-header {
+    display: flex;
+    gap: 8px;
+}
+
+.post-header img {
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+    margin-bottom: 25px;
+}
+
+.post-header h2 {
+    color: #c9c9c9;
+    font-size: 25px;
+    font-family: rakib;
+}
+
+.footer-post-one ul li a img {
+    height: 16px;
+    width: 18px;
+    margin-right: 10px;
+}
+
+.footer-post-one a {
+    color: #aaaaaa;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+
+.footer-post-one p {
+    color: #aaaaaa;
+    font-size: 14px;
+    margin-bottom: 17px;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.footer-post-one .green {
+    color: #546E20;
+}
