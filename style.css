@@ -110,3 +110,8 @@ main {
 .service-item button {
     border: none;
 }
+
+.service-item button img {
+    height: 37px;
+    width: 116px;
+}
