@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psd to html peoject2</title>
+
+    <!-- slider css -->
+    <link rel="sheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
+    <!-- main css file  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header part start  -->
+    <header class="header-container">
+        <div class="header">
+            <div class="logo">
+                <h2>Fadelicious</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a class="border-none" href="#">Services</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="banner-slider">
+            <div class="slider-wrapper theme-light">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                    <img src="images/up.jpg" data-thumb="images/up.jpg" alt="">
+                    <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" />
+                    <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- hheader end  -->
+    <!-- main start  -->
+    <main>
+        <section class="services">
+            <p>Hi! This is Fadelicious. New unique look for your blog & portfolio. Vivamus porttitor tristique augue a
+                vestibulum. Maecenas sodales risus porta mi semper in auctor massa posuere. </p>
+
+            <div class="service-info">
+                <div class="service-item">
+                    <img src="images/icon1.png" alt="">
+                    <h2>Package Design</h2>
+                    <p>Praesent erat anteport hanip, condimentum quis facilisisac condimentum in ipsum. </p>
+                    <button><img src="images/button.png" alt=""></button>
+                </div>
+                <div class="service-item">
+                    <img src="images/icon2.png" alt="">
+                    <h2>Package Design</h2>
+                    <p>Praesent erat anteport hanip, condimentum quis facilisisac condimentum in ipsum. </p>
+                    <button><img src="images/button.png" alt=""></button>
+                </div>
+                <div class="service-item">
+                    <img src="images/icon3.png" alt="">
+                    <h2>Package Design</h2>
+                    <p>Praesent erat anteport hanip, condimentum quis facilisisac condimentum in ipsum. </p>
+                    <button><img src="images/button.png" alt=""></button>
+                </div>
+                <div class="service-item">
+                    <img src="images/icon3.png" alt="">
+                    <h2>Package Design</h2>
+                    <p>Praesent erat anteport hanip, condimentum quis facilisisac condimentum in ipsum. </p>
+                    <button><img src="images/button.png" alt=""></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <!-- jquery  -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+</body>
+
+</html>

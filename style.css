@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: rakib;
+    src: url(fonts/QlassikBold_TB.ttf);
+}
+
+body {
+    background-color: #E8E8E8;
+    font-family: rakib;
+}
+
+.header-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 62px;
+}
+
+.header {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 0px;
+}
+
+.header .menu ul {
+    display: flex;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.header .menu ul li {
+    padding: 10px 0px;
+
+}
+
+.menu ul li a {
+    border-right: 1px solid #C0C0C0;
+    padding: 0px 27px;
+}
+
+.menu .border-none {
+    border-right: none;
+}
+
+.banner-slider {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.banner-slider img {
+    width: 100%;
+}
+
+/* main start  */
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.services>p {
+    margin-bottom: 70px;
+    font-size: 28px;
+    color: #747474;
+
+}
+
+.service-info {
+    display: flex;
+    gap: 60px;
+    text-align: center;
+}
+
+.service-info>img {
+    height: 65px;
+    width: 65px;
+}
+
+.service-item h2 {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #686868;
+    margin: 15px 0px;
+}
+
+.service-item p {
+    font-size: 14px;
+    font-family: rakib;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.service-item button {
+    border: none;
+}
